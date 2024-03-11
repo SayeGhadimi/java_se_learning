@@ -1,6 +1,7 @@
 import java.util.Scanner;
-public class FahrenheitToCelsiusma {
-	public static void main(String[] args) {
+public class FahrenheitToCelsius {
+	public static void main (String[] args) {
+
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a degree in Fahrenheit: ");
 		double fahrenheit = input.nextDouble();
