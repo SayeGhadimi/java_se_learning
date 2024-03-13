@@ -8,14 +8,14 @@ public class SubtractionQuiz {
 			number1 = number2;
 			number2 = temp;
 		}
-			System.out.print ("What is " + number1 + " − " + number2 + "? ");
+			System.out.print ("What is " + number1 + " - " + number2 + "? ");
 			Scanner input = new Scanner(System.in);
 			int answer = input.nextInt();
-			if (number1 − number2 == answer)
+			if (number1 - number2 == answer)
 			System.out.println("You are correct!");
 			else {
 				System.out.println("Your answer is wrong.");
-				System.out.println(number1 + " − " + number2 + " should be " + (number1 − number2));
+				System.out.println(number1 + " - " + number2 + " should be " + (number1 - number2));
 
 			}
 
