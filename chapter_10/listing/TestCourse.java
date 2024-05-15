@@ -9,7 +9,7 @@ public class TestCourse {
 
               course2.addStudent("Peter Jones");
               course2.addStudent("Steve Smith");
-        
+
               System.out.println("Number of students in course1: " + course1.getNumberOfStudents());
               String[] students = course1.getStudents();
                   for (int i = 0; i < course1.getNumberOfStudents(); i++)
