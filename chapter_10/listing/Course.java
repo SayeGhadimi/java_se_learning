@@ -28,4 +28,3 @@ public class Course {
                  // Left as an exercise in Programming Exercise 10.9
              }
   }
-  
