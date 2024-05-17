@@ -3,15 +3,15 @@ public class StackOfIntegers {
      private int size;
      public static final int DEFAULT_CAPACITY = 16;
 
-        /** Construct a stack with the default capacity 16 */
+            /** Construct a stack with the default capacity 16 */
             public StackOfIntegers() {
             this(DEFAULT_CAPACITY);
             }
-        /** Construct a stack with the specified capacity */
+            /** Construct a stack with the specified capacity */
             public StackOfIntegers(int capacity) {
             elements = new int[capacity];
             }
-        /** Push a new integer to the top of the stack */
+             /** Push a new integer to the top of the stack */
             public void push(int value) {
                 if (size >= elements.length) {
                 int[] temp = new int[elements.length * 2];
@@ -23,7 +23,6 @@ public class StackOfIntegers {
             }
 
             /** Return and remove the top element from the stack */
-
             public int pop() {
                 return elements[--size];
             }
