@@ -21,4 +21,4 @@ public class ChainedExceptionDemo {
     public static void method2() throws Exception {
         throw new Exception("New info from method2");
     }
-}  
+}
