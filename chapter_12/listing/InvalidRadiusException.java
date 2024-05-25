@@ -10,6 +10,6 @@ public class InvalidRadiusException extends Exception {
      /** Return the radius */
      public double getRadius() {
          return radius;
-         
+
      }
 }
