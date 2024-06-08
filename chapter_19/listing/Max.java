@@ -7,5 +7,5 @@ public class Max {
             return o2 ;
 
     }
-         
+
 }
